@@ -1,0 +1,152 @@
+[26.517629623] 2018-05-22 16:23:01,643 - INFO - launcher: Starting sanity checks
+[27.018547058] 2018-05-22 16:23:01,643 - INFO - launcher: Checking for Python 3.5+
+[27.295827866] 2018-05-22 16:23:01,644 - INFO - launcher: Checking console encoding
+[27.489900589] 2018-05-22 16:23:01,644 - INFO - launcher: Setting console encoding to UTF-8
+[27.641296387] 2018-05-22 16:23:01,644 - INFO - launcher: Ensuring we're in the right environment
+[29.141426086] 2018-05-22 16:23:01,645 - INFO - launcher: Adding local bins/ folder to path
+[29.642105103] 2018-05-22 16:23:01,646 - INFO - launcher: Required checks passed.
+[30.142307281] 2018-05-22 16:23:01,646 - INFO - launcher: Optional checks passed.
+[30.142307281] 2018-05-22 16:23:01,646 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.1193985939025879] 2018-05-22 16:23:02,736 - WARNING - musicbot.config | In config.py::MainThread(10728), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1198992729187012] 2018-05-22 16:23:02,736 - INFO - musicbot.config | In config.py::MainThread(10728), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.1229007244110107] 2018-05-22 16:23:02,739 - DEBUG - musicbot.json | In json.py::MainThread(10728), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2935149669647217] 2018-05-22 16:23:02,910 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 227 in _setup_logging: Set logging level to INFO
+[1.2935149669647217] 2018-05-22 16:23:02,910 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 84 in __init__: Starting MusicBot 1.9.7
+[1.2940671443939209] 2018-05-22 16:23:02,910 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 90 in __init__: Loaded autoplaylist with 2530 entries
+[4.4793272018432617] 2018-05-22 16:23:06,096 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 1074 in on_ready: Connection established, ready to go.
+[4.4798235893249512] 2018-05-22 16:23:06,096 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 339 in _cache_app_info: Caching app info
+[4.7329115867614746] 2018-05-22 16:23:06,349 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.7344117164611816] 2018-05-22 16:23:06,351 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 905 in _scheck_server_permissions: Checking server permissions
+[4.7344117164611816] 2018-05-22 16:23:06,351 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7344117164611816] 2018-05-22 16:23:06,351 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 913 in _scheck_configs: Validating config
+[4.7349121570587158] 2018-05-22 16:23:06,351 - DEBUG - musicbot.config | In config.py::MainThread(10728), line 212 in async_validate: Validating options...
+[4.7349121570587158] 2018-05-22 16:23:06,351 - DEBUG - musicbot.config | In config.py::MainThread(10728), line 226 in async_validate: Acquired owner id via API
+[4.7349121570587158] 2018-05-22 16:23:06,351 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 916 in _scheck_configs: Validating permissions config
+[4.7349121570587158] 2018-05-22 16:23:06,351 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10728), line 64 in async_validate: Validating permissions...
+[4.7349121570587158] 2018-05-22 16:23:06,351 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10728), line 68 in async_validate: Fixing automatic owner group
+[4.7354125976562500] 2018-05-22 16:23:06,352 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1091 in on_ready: Connected: 447618042948747274/Hz Bot#1170
+[4.7359127998352051] 2018-05-22 16:23:06,352 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1099 in on_ready: Owner:     313905954271789056/Hz#9824
+
+[4.7364139556884766] 2018-05-22 16:23:06,353 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1102 in on_ready: Server List:
+[4.7369143962860107] 2018-05-22 16:23:06,353 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1105 in on_ready:  - Team Hunting for a Hold
+[4.7374136447906494] 2018-05-22 16:23:06,354 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1105 in on_ready:  - Derank
+[4.7374136447906494] 2018-05-22 16:23:06,354 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1105 in on_ready:  - test
+[4.7379143238067627] 2018-05-22 16:23:06,354 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1151 in on_ready: Not bound to any text channels
+[4.7384140491485596] 2018-05-22 16:23:06,355 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 1177 in on_ready: Not autojoining any voice channels
+[4.7384140491485596] 2018-05-22 16:23:06,355 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 266 in _join_startup_channels: Found resumable voice channel Team Hunting for a Hold/Voice Chat
+[4.7389142513275146] 2018-05-22 16:23:06,355 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 266 in _join_startup_channels: Found resumable voice channel Derank/I want NieR:Automata plz <3
+[4.7394151687622070] 2018-05-22 16:23:06,356 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 272 in _join_startup_channels: Found owner in "I want NieR:Automata plz <3"
+[4.7399158477783203] 2018-05-22 16:23:06,356 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 266 in _join_startup_channels: Found resumable voice channel test/General
+[4.7399158477783203] 2018-05-22 16:23:06,356 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 281 in _join_startup_channels: Attempting to join Team Hunting for a Hold/Voice Chat
+[4.7404167652130127] 2018-05-22 16:23:06,357 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 452 in get_voice_client: Connection attempt 1 to Voice Chat
+[4.7404167652130127] 2018-05-22 16:23:06,357 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.7409164905548096] 2018-05-22 16:23:06,357 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.7409164905548096] 2018-05-22 16:23:06,357 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.9843494892120361] 2018-05-22 16:23:06,601 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2926 in on_voice_state_update: Resumed voice connection to Team Hunting for a Hold/Voice Chat
+[4.9848494529724121] 2018-05-22 16:23:06,601 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on Team Hunting for a Hold/Voice Chat -> [RESUME, CONNECT]
+[4.9848494529724121] 2018-05-22 16:23:06,601 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.2179279327392578] 2018-05-22 16:23:06,834 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[5.6260323524475098] 2018-05-22 16:23:07,242 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[5.6265325546264648] 2018-05-22 16:23:07,243 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 478 in get_voice_client: Connected in 0.9s
+[5.6265325546264648] 2018-05-22 16:23:07,243 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 479 in get_voice_client: Connected to Team Hunting for a Hold/Voice Chat
+[5.6275179386138916] 2018-05-22 16:23:07,244 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 849 in deserialize_queue: Deserializing queue for 418743278519713802
+[5.7736155986785889] 2018-05-22 16:23:07,390 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 570 in get_player: Created player via deserialization for server 418743278519713802 with 1 entries
+[5.7736155986785889] 2018-05-22 16:23:07,390 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 297 in _join_startup_channels: Joined Team Hunting for a Hold/Voice Chat
+[5.7746152877807617] 2018-05-22 16:23:07,391 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 281 in _join_startup_channels: Attempting to join Derank/I want NieR:Automata plz <3
+[5.7756164073944092] 2018-05-22 16:23:07,392 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 452 in get_voice_client: Connection attempt 1 to I want NieR:Automata plz <3
+[5.7756164073944092] 2018-05-22 16:23:07,392 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[5.7756164073944092] 2018-05-22 16:23:07,392 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[5.7761163711547852] 2018-05-22 16:23:07,392 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.7761163711547852] 2018-05-22 16:23:07,392 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10728), line 373 in websocket_check: Starting websocket check loop for Team Hunting for a Hold
+[5.7766168117523193] 2018-05-22 16:23:07,393 - DEBUG - musicbot.entry | In entry.py::MainThread(10728), line 54 in get_ready_future: Created future for audio_cache\youtube-HdWatPF782g-Bliss_n_Eso_-_I_am_somebody_ft._Nas_Lyrics.webm
+[5.7766168117523193] 2018-05-22 16:23:07,393 - FFMPEG - musicbot.player | In player.py::MainThread(10728), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-HdWatPF782g-Bliss_n_Eso_-_I_am_somebody_ft._Nas_Lyrics.webm
+[5.7816202640533447] 2018-05-22 16:23:07,398 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 256 in _autopause: Initial autopause in empty channel
+[5.7836217880249023] 2018-05-22 16:23:07,400 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 825 in serialize_queue: Serializing queue for 418743278519713802
+[6.0200157165527344] 2018-05-22 16:23:07,636 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2926 in on_voice_state_update: Resumed voice connection to Derank/I want NieR:Automata plz <3
+[6.0205163955688477] 2018-05-22 16:23:07,637 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on Derank/I want NieR:Automata plz <3 -> [RESUME, CONNECT]
+[6.0205163955688477] 2018-05-22 16:23:07,637 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.2586863040924072] 2018-05-22 16:23:07,875 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[6.4125339984893799] 2018-05-22 16:23:08,029 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[6.4125339984893799] 2018-05-22 16:23:08,029 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 478 in get_voice_client: Connected in 0.6s
+[6.4125339984893799] 2018-05-22 16:23:08,029 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 479 in get_voice_client: Connected to Derank/I want NieR:Automata plz <3
+[6.4140350818634033] 2018-05-22 16:23:08,030 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 849 in deserialize_queue: Deserializing queue for 446694519505813525
+[6.4330465793609619] 2018-05-22 16:23:08,049 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 570 in get_player: Created player via deserialization for server 446694519505813525 with 1 entries
+[6.4335472583770752] 2018-05-22 16:23:08,050 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 297 in _join_startup_channels: Joined Derank/I want NieR:Automata plz <3
+[6.4340472221374512] 2018-05-22 16:23:08,050 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 281 in _join_startup_channels: Attempting to join test/General
+[6.4345479011535645] 2018-05-22 16:23:08,051 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 452 in get_voice_client: Connection attempt 1 to General
+[6.4350485801696777] 2018-05-22 16:23:08,051 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[6.4350485801696777] 2018-05-22 16:23:08,051 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[6.4350485801696777] 2018-05-22 16:23:08,051 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.4355497360229492] 2018-05-22 16:23:08,052 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10728), line 373 in websocket_check: Starting websocket check loop for Derank
+[6.4355497360229492] 2018-05-22 16:23:08,052 - DEBUG - musicbot.entry | In entry.py::MainThread(10728), line 54 in get_ready_future: Created future for audio_cache\youtube-IX5P2v9jcQ0-Thomas_Rhett_-_I_Feel_Good_Instant_Grat_Video_ft._LunchMoney_Lewis.webm
+[6.4360496997833252] 2018-05-22 16:23:08,052 - FFMPEG - musicbot.player | In player.py::MainThread(10728), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-IX5P2v9jcQ0-Thomas_Rhett_-_I_Feel_Good_Instant_Grat_Video_ft._LunchMoney_Lewis.webm
+[6.4410526752471924] 2018-05-22 16:23:08,057 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 825 in serialize_queue: Serializing queue for 446694519505813525
+[6.6902554035186768] 2018-05-22 16:23:08,307 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2926 in on_voice_state_update: Resumed voice connection to test/General
+[6.6907556056976318] 2018-05-22 16:23:08,307 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on test/General -> [RESUME, CONNECT]
+[6.6907556056976318] 2018-05-22 16:23:08,307 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.9096021652221680] 2018-05-22 16:23:08,526 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[7.0550539493560791] 2018-05-22 16:23:08,671 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[7.0550539493560791] 2018-05-22 16:23:08,671 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 478 in get_voice_client: Connected in 0.6s
+[7.0555543899536133] 2018-05-22 16:23:08,672 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 479 in get_voice_client: Connected to test/General
+[7.0560550689697266] 2018-05-22 16:23:08,672 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 849 in deserialize_queue: Deserializing queue for 447773122712698891
+[7.0755677223205566] 2018-05-22 16:23:08,692 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 570 in get_player: Created player via deserialization for server 447773122712698891 with 1 entries
+[7.0760686397552490] 2018-05-22 16:23:08,692 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 297 in _join_startup_channels: Joined test/General
+[7.0765688419342041] 2018-05-22 16:23:08,693 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10728), line 373 in websocket_check: Starting websocket check loop for test
+[7.0775694847106934] 2018-05-22 16:23:08,694 - DEBUG - musicbot.entry | In entry.py::MainThread(10728), line 54 in get_ready_future: Created future for audio_cache\youtube-4qsWFFuYZYI-Rymdreglage_-_8-bit_trip.webm
+[7.0775694847106934] 2018-05-22 16:23:08,694 - FFMPEG - musicbot.player | In player.py::MainThread(10728), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4qsWFFuYZYI-Rymdreglage_-_8-bit_trip.webm
+[7.0825726985931396] 2018-05-22 16:23:08,699 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 256 in _autopause: Initial autopause in empty channel
+[7.0840735435485840] 2018-05-22 16:23:08,700 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 825 in serialize_queue: Serializing queue for 447773122712698891
+[12.0148296356201172] 2018-05-22 16:23:13,631 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -help
+[23.2755794525146484] 2018-05-22 16:23:24,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 404948122318405632/danielseow#4275 on Derank/I want NieR:Automata plz <3 -> [JOIN, CONNECT, MUTE]
+[23.2760794162750244] 2018-05-22 16:23:24,892 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 404948122318405632/danielseow#4275 has joined Derank/I want NieR:Automata plz <3
+[79.3774898052215576] 2018-05-22 16:24:20,994 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -volume 1
+[88.1917996406555176] 2018-05-22 16:24:29,808 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -volume 100
+[122.9071512222290039] 2018-05-22 16:25:04,524 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Derank/I want NieR:Automata plz <3 -> [LEAVE, DISCONNECT]
+[122.9076528549194336] 2018-05-22 16:25:04,524 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 313905954271789056/Hz#9824 has left Derank/I want NieR:Automata plz <3
+[122.9191594123840332] 2018-05-22 16:25:04,536 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Team Hunting for a Hold/Voice Chat -> [JOIN, CONNECT, MUTE]
+[122.9191594123840332] 2018-05-22 16:25:04,536 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 313905954271789056/Hz#9824 has joined Team Hunting for a Hold/Voice Chat
+[122.9196696281433105] 2018-05-22 16:25:04,536 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2977 in on_voice_state_update: Unpausing in Team Hunting for a Hold/Voice Chat
+[126.2256171703338623] 2018-05-22 16:25:07,842 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 404948122318405632/danielseow#4275 on Derank/I want NieR:Automata plz <3 -> [LEAVE, DISCONNECT]
+[126.2256171703338623] 2018-05-22 16:25:07,842 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 404948122318405632/danielseow#4275 has left Derank/I want NieR:Automata plz <3
+[126.2265970706939697] 2018-05-22 16:25:07,843 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2987 in on_voice_state_update: Pausing in Derank/I want NieR:Automata plz <3 (empty channel)
+[131.0744252204895020] 2018-05-22 16:25:12,691 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Team Hunting for a Hold/Music Only -> [LEAVE, MOVE]
+[131.0749261379241943] 2018-05-22 16:25:12,691 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 313905954271789056/Hz#9824 has left Team Hunting for a Hold/Voice Chat
+[131.0754258632659912] 2018-05-22 16:25:12,692 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2987 in on_voice_state_update: Pausing in Team Hunting for a Hold/Voice Chat (empty channel)
+[134.5370979309082031] 2018-05-22 16:25:16,153 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -summon
+[135.1012985706329346] 2018-05-22 16:25:16,718 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on Team Hunting for a Hold/Music Only -> [JOIN, MOVE, MUTE]
+[135.1012985706329346] 2018-05-22 16:25:16,718 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 447618042948747274/Hz Bot#1170 has joined Team Hunting for a Hold/Music Only
+[135.1022992134094238] 2018-05-22 16:25:16,719 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2998 in on_voice_state_update: Unpausing in Team Hunting for a Hold/Music Only
+[137.7505316734313965] 2018-05-22 16:25:19,367 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Team Hunting for a Hold/Music Only -> [UNMUTE]
+[138.5722711086273193] 2018-05-22 16:25:20,189 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Team Hunting for a Hold/Music Only -> [MUTE]
+[189.7474522590637207] 2018-05-22 16:26:11,364 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -summon
+[190.0191431045532227] 2018-05-22 16:26:11,635 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[193.6892311573028564] 2018-05-22 16:26:15,306 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -help
+[210.8530914783477783] 2018-05-22 16:26:32,469 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -leaveserver
+[233.7883005142211914] 2018-05-22 16:26:55,405 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -disconnect
+[234.0598368644714355] 2018-05-22 16:26:55,676 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on Team Hunting for a Hold/Music Only -> [DISCONNECT]
+[236.5137290954589844] 2018-05-22 16:26:58,130 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2734 in on_message: 313905954271789056/Hz#9824: -summon
+[236.5145459175109863] 2018-05-22 16:26:58,131 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2019 in cmd_summon: Joining Team Hunting for a Hold/Music Only
+[236.5150463581085205] 2018-05-22 16:26:58,131 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 452 in get_voice_client: Connection attempt 1 to Music Only
+[236.5150463581085205] 2018-05-22 16:26:58,131 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[236.5150463581085205] 2018-05-22 16:26:58,131 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[236.5155475139617920] 2018-05-22 16:26:58,132 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[236.7664835453033447] 2018-05-22 16:26:58,383 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 447618042948747274/Hz Bot#1170 on Team Hunting for a Hold/Music Only -> [JOIN, CONNECT, UNMUTE]
+[236.7664835453033447] 2018-05-22 16:26:58,383 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 447618042948747274/Hz Bot#1170 has joined Team Hunting for a Hold/Music Only
+[236.7674851417541504] 2018-05-22 16:26:58,384 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[236.9876713752746582] 2018-05-22 16:26:58,604 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[237.1136829853057861] 2018-05-22 16:26:58,730 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[237.1141834259033203] 2018-05-22 16:26:58,731 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 478 in get_voice_client: Connected in 0.6s
+[237.1141834259033203] 2018-05-22 16:26:58,731 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 479 in get_voice_client: Connected to Team Hunting for a Hold/Music Only
+[237.1150155067443848] 2018-05-22 16:26:58,731 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 849 in deserialize_queue: Deserializing queue for 418743278519713802
+[237.1370317935943604] 2018-05-22 16:26:58,753 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 570 in get_player: Created player via deserialization for server 418743278519713802 with 1 entries
+[237.1375319957733154] 2018-05-22 16:26:58,754 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 825 in serialize_queue: Serializing queue for 418743278519713802
+[237.1390326023101807] 2018-05-22 16:26:58,755 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10728), line 373 in websocket_check: Starting websocket check loop for Team Hunting for a Hold
+[237.1390326023101807] 2018-05-22 16:26:58,755 - DEBUG - musicbot.entry | In entry.py::MainThread(10728), line 54 in get_ready_future: Created future for audio_cache\youtube-HdWatPF782g-Bliss_n_Eso_-_I_am_somebody_ft._Nas_Lyrics.webm
+[237.1395332813262939] 2018-05-22 16:26:58,756 - FFMPEG - musicbot.player | In player.py::MainThread(10728), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-HdWatPF782g-Bliss_n_Eso_-_I_am_somebody_ft._Nas_Lyrics.webm
+[237.1545433998107910] 2018-05-22 16:26:58,771 - DEBUG - musicbot.bot | In bot.py::MainThread(10728), line 825 in serialize_queue: Serializing queue for 418743278519713802
+[284.2424011230468750] 2018-05-22 16:27:45,859 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10728), line 2938 in on_voice_state_update: Voice state update for 313905954271789056/Hz#9824 on Team Hunting for a Hold/Music Only -> [LEAVE, DISCONNECT]
+[284.2439019680023193] 2018-05-22 16:27:45,860 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2949 in on_voice_state_update: 313905954271789056/Hz#9824 has left Team Hunting for a Hold/Music Only
+[284.2454025745391846] 2018-05-22 16:27:45,862 - INFO - musicbot.bot | In bot.py::MainThread(10728), line 2987 in on_voice_state_update: Pausing in Team Hunting for a Hold/Music Only (empty channel)
